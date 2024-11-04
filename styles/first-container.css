@@ -1,0 +1,257 @@
+/* first container starts here */
+.fixed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+    background-color: white;
+    color: black;
+    margin-top: 5%;
+}
+.left{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 5px;
+    row-gap: 10px;
+    margin-left: -10px;
+    
+}
+.left-second-container img{
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 2rem;
+    margin-bottom: -10px;
+}
+
+.left h3{
+    font-size: 1rem;
+    margin-bottom: -10px;
+}
+
+.left p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-style: italic;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+}
+.hr{
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 50vh;
+    border: 2px solid red;
+}
+.staff{
+    margin-top: 20%;
+    text-align: center;
+    position: relative;
+}
+.staff h3{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: rgb(1, 1, 157);
+}
+.staff p{
+    font-size: 0.8rem;
+   font-weight: 400;
+   width: 35rem;
+}
+.pointer img{
+    position: absolute;
+    margin: -90px;
+}
+.lookup{
+    padding-top: 0.6rem;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* first container ends here */
+
+
+
+
+.box1 h1{
+    font-size: 2rem;
+    color: black;
+}
+.grid-container img{
+    width: 10rem;
+    transition: transform 1s;
+}
+.b{
+    height: 0vh;
+}
+.grid-container p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.grid-container h3{
+    font-size: 1rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin-top: -20px;
+    column-gap: 1rem;
+    row-gap: 2rem;
+    padding: 25px 30px 0px 30px;
+    overflow: hidden;
+}
+.grid-container img:hover{
+    transform: rotate(1deg) scale(1.2);
+}
+.invention{
+    overflow: hidden;
+}
+.invention img{
+    width: 6rem;
+}
+.invention h3{
+    font-size: 0.9rem;
+    margin-top: -0.8rem;
+}
+.invention p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: -0.3rem;
+    width: 200px;
+    line-height: 1rem;
+}
+
+.math-main-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+th{
+    font-size: 0.8rem;
+}
+td{
+    font-size: 0.7rem;
+}
+.math-main-container img{
+    width: 20rem;
+}
+.math-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    height: 62vh;
+}
+th{
+    font-weight: 700;
+}
+td{
+    font-weight: 400;
+}
+td:hover{
+    background-color: grey;
+    color: white;
+}
+th:hover{
+    background-color: blue;
+    color: white;
+}
+.language{
+    overflow-x: scroll;
+}
+.language a{
+    color: black;
+    
+}
+.language2{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+}
+
+
+.animal{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: -20px;
+    row-gap: 10px;
+    
+}
+.animal-img h3{
+    margin-top: -10px;
+}
+.animal-img img{
+   width: 10rem;
+}
+.monkey img{
+    width: 9rem;
+    height: 20vh;
+}
+.Rhinoceros img{
+    height: 20vh;
+}
+.planet{
+    background: url(/images/planets_iau-1280x720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   height: 72vh;
+}
+
+.scroll{
+    max-height: 72vh;
+    overflow: scroll;
+    width: auto;
+}
+.scroll p{
+    font-weight: 400;
+}
+.flag-container{
+    display: grid;
+    grid-template-columns
+: repeat(5, 1fr);
+    column-gap: 10px;
+    row-gap: 60px;
+}
+
+.flag img{
+    margin-bottom: -10px;
+}
+
+
+
+ /* Games section starts here */
+ .game{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('/images/cartoon-like-kid-playing-with-board-game-indoors.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .invention-games{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    row-gap: 5px;
+ }
+ .invention-games img{
+    width: 28rem;
+    padding: 20px 0px 0px 0px;
+ }
+ .game-first-img{
+    height: 64vh;
+    margin-left: 100px;
+ }
+ .game-second-img{
+    height: 64vh;
+    width: 50rem;
+ }
+ .riddles h2{
+    margin-right: 200px;
+ }
+ .riddles p{
+    margin-right: 200px;
+ }
+ /* Games section ends here */

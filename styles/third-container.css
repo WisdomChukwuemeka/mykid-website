@@ -1,0 +1,30 @@
+.third-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 5px;
+    text-align: center;
+}
+.third-container p{
+    width: 300px;
+    line-height: 1.5rem;
+}
+.third-container h1{
+    padding-bottom: 1px;
+}
+.third-container h3{
+    font-size: 1rem;
+    padding-top: 10px;
+}
+.third-container img{
+    width: 6rem;
+}
+.last-gif{
+   min-width: 0px;
+}
+hr{
+    width: 100px;
+    margin: 5px auto auto 100px;
+}

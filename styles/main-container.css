@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+main{
+  overflow: hidden;
+}
+
+.ini a{
+  line-height: 2.5rem;
+  color: white;
+}
+.ini a:hover{
+  color: blue;
+}
+a {
+    text-decoration: none;
+  }
+  ul {
+    padding: 20px 0px;
+  }
+  li {
+    list-style-type: none;
+    font-size: 0.8rem;
+    font-weight: 900;
+    line-height: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    text-align: center;
+  }
+  li:not(:last-child) {
+    line-height: 30px;
+  }
+  .listing {
+    background-color: #f90;
+    height: 72vh;
+    width: 6rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px 0px 0px 5px;
+    position: relative;
+  }
+  .box {
+    height: 72vh;
+    width: 75rem;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: white;
+    padding: 10px;
+    display: none;
+  }
+  .listing ul li .ini {
+    width: 100%;
+  }
+  .listing ul li .ini:hover .box {
+    display: block;
+  }

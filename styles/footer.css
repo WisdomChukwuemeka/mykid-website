@@ -1,0 +1,12 @@
+footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    font-size: 0.8rem;
+    padding-top: 15px;
+}

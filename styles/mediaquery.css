@@ -1,0 +1,313 @@
+@media only screen and (max-width: 950px) {
+  .box{
+    overflow-x: scroll;
+  }
+  .ul li{
+    margin-left: -10px;
+  }
+  nav img{
+    width: 100px;
+    margin-left: -20px;
+  }
+  .listing{
+    height: 72vh;
+  }
+  .fixed{
+    margin-top: -0.1px;
+  }
+  .left{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: -10px;
+    margin-left: -25.8px;
+  }
+  .hr{
+    margin-left: -10px;
+  }
+  .staff{
+    margin-left: -30px;
+    padding-left: 40px;
+    width: 20rem;
+    position: relative;
+  }
+  .staff h3{
+    font-size: 1.2rem;
+    margin-bottom: -20px;
+  }
+  .staff p{
+    width: 250px;
+    text-align: center;
+  }
+  .pointer{
+    position: absolute;
+    margin: -28px 0px 0px 200px; 
+}
+.box{
+  width: 49.2rem;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow-x: scroll;
+  margin-left: -60px;
+}
+.grid-container img{
+  width: 120px;
+}
+.sub-grid-container{
+  margin-top: -5px;
+}
+.sub-grid-container h3{
+  line-height: 15px;
+  font-size: 0.8rem;
+}
+.sub-grid-container p{
+  margin-top: -2px;
+  line-height: 15px;
+  font-size: 0.7rem;
+  margin-left: 25px;
+}
+
+.invention img{
+  width: 80px;
+  margin-left: 35px;
+}
+.invention h3{
+  font-size: 0.7rem;
+  padding-left: 35px;
+}
+
+.math-container{
+  margin-left: -10px;
+}
+.math-main-container img{
+  display: none;
+}
+td{
+  font-size: 0.7rem;
+}
+.ocean video{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-left: -30px;
+}
+.animal{
+  column-gap: 25px;
+  overflow-y: none;
+}
+.flag-container{
+  grid-template-columns: repeat(3, 1fr);
+}
+.riddles h2{
+  margin-right: 200px;
+}
+.riddles p{
+  font-weight: 400;
+  width: 500px;
+  text-align: center;
+}
+.game-container{
+  width: 10px;
+}
+.game-first-img{
+  width: 30px;
+  margin-left: 5px;
+}
+.game-second-img{
+  margin-left: 150px;
+}
+
+.box{
+  width: 42.5rem;
+}
+.language2 a{
+  color: black;
+}
+
+}
+.second-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.second-container img{
+  width: 10px;
+}
+.sub-second-container h2{
+  font-size: 1.2rem;
+}
+.second-container p{
+  font-size: 0.8rem;
+}
+.last-gif img{
+  width: 20rem;
+  margin-left: -50px;
+}
+.sub-second-container2{
+  margin-left: 70px;
+}
+.listing{
+  margin-left: -5px;
+}
+footer{
+  width: auto;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  *{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .none {
+    display: none;
+  }
+  .mediaquery-color{
+    margin-top: -10px;
+  }
+  .box{
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+    height: 50vh;
+    overflow: none;
+  }
+  nav {
+    margin-left: -50px;
+  }
+  nav img {
+    width: 20%;
+    margin-left: 20px;
+  }
+  nav input {
+    min-width: 40%;
+    height: 4vh;
+    padding-left: 10px;
+    margin-left: 70px;
+  }
+
+  .a {
+    display: none;
+  }
+.ul .fa-solid{
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+  }
+
+  .about {
+    margin-left: -20px;
+  }
+
+  .get-started {
+    text-align: center;
+    margin: 30px;
+  }
+  .get-started h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  .get-started p {
+    font-size: 1.6rem;
+    margin-left: -100px;
+    color: white;
+  }
+  .get-started button {
+    margin-left: -10px;
+  }
+  .listing {
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0px 10px 0px;
+  }
+  
+  .listing a {
+    font-size: 1rem;
+  }
+  .box {
+    display: none;
+  }
+  .listing ul li .ini:hover .box {
+    display: none;
+  }
+  .second-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 250px 0px 0px 80px;
+  }
+  .sub-second-container2{
+    margin-left: 0px;
+  }
+  
+  .third-container {
+    text-align: center;
+  }
+  .ini a {
+    width: 100px;
+    color: white;
+    padding-top: -20px;
+  }
+  .mediaquery-color {
+    background-color: blue;
+    border-radius: 5px;
+    width: 28rem;
+    margin: auto;
+    height: 6.5vh;
+    margin-top: 15px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example {
+    from {
+      background-color: blue;
+    }
+    to {
+      background-color: orange;
+    }
+  }
+  .mediaquery-color a:hover {
+    background-color: grey;
+    color: white;
+    width: 5rem;
+    border-radius: 5px;
+  }
+  
+  .games {
+    padding-top: 5px;
+  }
+
+  .teacher {
+    display: none;
+  }
+  .third-container h1 {
+    font-size: 1.3rem;
+  }
+  .third-container h3 {
+    font-size: 0.9rem;
+  }
+  .third-container p {
+    font-size: 0.8rem;
+  }
+  .third-container{
+    margin-top: 100px;
+  }
+  footer{
+    margin-top: -5px;
+  }
+}
+
+
+
+
+
+
